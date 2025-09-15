@@ -1,0 +1,15 @@
+# Ignore Git and environment files
+.git
+.env
+
+# Node artifacts
+frontend/node_modules
+frontend/.next
+frontend/out
+
+# Python artifacts
+**/__pycache__
+**/*.pyc
+
+# OS artifacts
+.DS_Store
