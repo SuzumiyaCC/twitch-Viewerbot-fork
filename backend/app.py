@@ -15,4 +15,4 @@ CORS(app, resources={
 app.register_blueprint(api, url_prefix='/api')
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3001)  # Match the frontend port
+    app.run(host="0.0.0.0", debug=True, port=3001)  # Match the frontend port
